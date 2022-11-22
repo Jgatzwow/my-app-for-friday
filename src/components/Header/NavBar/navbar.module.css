@@ -1,0 +1,8 @@
+.navList {
+    display: flex;
+    gap: 5px;
+}
+.active {
+    color: goldenrod;
+    transition: 1s linear;
+}

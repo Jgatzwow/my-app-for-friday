@@ -1,0 +1,32 @@
+.Error__container {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background: black;
+}
+
+.error__title {
+    font-size: 30px;
+    color: red;
+}
+
+.error__desc {
+    font-size: 28px;
+    color: red;
+}
+.error__link {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    color: red;
+    padding: 5px;
+}
+.error__link:hover {
+    background: white;
+    transition: 1s linear;
+}
